@@ -6,9 +6,9 @@ class User_model {
         $this->db = new Database;
     }
 
-    public function get($username) {
-        $this->db->query('SELECT * FROM person WHERE username=:username');
-        $this->db->bind('username', $username);
+    public function get($id) {
+        $this->db->query('SELECT * FROM person WHERE id=:id');
+        $this->db->bind('id', $id);
         return $this->db->single();
     }
 }
