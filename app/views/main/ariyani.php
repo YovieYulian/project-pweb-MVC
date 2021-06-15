@@ -21,7 +21,8 @@
             <div class="row">
                <div class="col-md-12">
                   <div class="prod-page-title">
-                     <h2>Cahya Nur Ariyani</h2>
+                     <!-- <h2>Cahya Nur Ariyani</h2> -->
+                     <h2> <?= $data['ariyani']['nama'] ?> </h2>
                   </div>
                </div>
             </div>
@@ -42,11 +43,7 @@
                      <div class="description-box">
                         <div class="dex-a">
                            <h4>Sekilas Tentang Ariyani : </h4>
-                           <p>Cahya Nur Ariyani atau biasa dipanggil Ariyani mengalami kejadian yang cukup malang.
-                           Gadis berusia 17 tahun tersebut harus rela tinggal di rumah sakit selama berbulan bulan akibat pembullyan yang diterima nya saat menjalani Masa Orientasi Siswa (MOS)
-                           Ia didorong dari lantai 2 sekolahnya oleh kakak tingkat yang iri akan kecantikannya. Akibat perlakuan kakak tingkatnya tersebut, Ariyani membutuhkan suplai darah tiap harinya.
-                           Bantu gadis malang tersebut agar bisa kembali mengejar cita-citanya.
-                           </p>
+                           <p><?= $data['ariyani']['story'] ?></p>
                            <br>
                         </div>
                         <div class="spe-a">
@@ -57,7 +54,7 @@
                                     <h5>Nama Lengkap</h5>
                                  </div>
                                  <div class="col-md-8">
-                                    <p>Cahya Nur Ariyani</p>
+                                    <p><?= $data['ariyani']['nama'] ?></p>
                                  </div>
                               </li>
                               <li class="clearfix">
@@ -65,7 +62,7 @@
                                     <h5>Tempat Tanggal Lahir</h5>
                                  </div>
                                  <div class="col-md-8">
-                                    <p>Depok, 13 Juni 2004</p>
+                                    <p><?= $data['ariyani']['ttl'] ?></p>
                                  </div>
                               </li>
                               <li class="clearfix">
@@ -73,7 +70,7 @@
                                     <h5>Tinggi & Berat Badan</h5>
                                  </div>
                                  <div class="col-md-8">
-                                    <p>Tinggi : 165cm / Berat Badan : 51 kg</p>
+                                    <p>Tinggi : <?= $data['ariyani']['tinggi'] ?> / Berat Badan : <?= $data['ariyani']['berat'] ?> kg</p>
                                  </div>
                               </li>
                               <li class="clearfix">
@@ -81,7 +78,7 @@
                                     <h5>Golongan Darah</h5>
                                  </div>
                                  <div class="col-md-8">
-                                    <p>AB Positif</p>
+                                    <p><?= $data['ariyani']['goldar'] ?></p>
                                  </div>
                               </li>
                               <li class="clearfix">
@@ -89,7 +86,7 @@
                                     <h5>Jumlah Darah yang Dibutuhkan</h5>
                                  </div>
                                  <div class="col-md-8">
-                                    <p>1 Kantong / hari</p>
+                                    <p><?= $data['ariyani']['jumlah'] ?></p>
                                  </div>
                               </li>
                               <li class="clearfix">
@@ -97,7 +94,7 @@
                                     <h5>Dirawat Sejak</h5>
                                  </div>
                                  <div class="col-md-8">
-                                    <p>17 Agustus 2020</p>
+                                    <p><?= $data['ariyani']['hospitalized'] ?></p>
                                  </div>
                               </li>
                            </ul>
@@ -108,7 +105,7 @@
                <div class="col-md-3 col-sm-12">
                   <div class="price-box-right float-end">
                      <h4>Contact Person : </h4>
-                     <h3>+62 896-4747-1911</h3>
+                     <h3><?= $data['ariyani']['cp'] ?></h3>
                      <h5>Hubungi nomor diatas jika anda berminat untuk mendonorkan darah anda</h5>
                   </div>
                </div>

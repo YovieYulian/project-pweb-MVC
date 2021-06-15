@@ -1,22 +1,3 @@
-<div class="modal fade" id="loginForm" tabindex="-1" role="dialog" aria-labelledby="loginForm" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="loginForm">Login ke BagiDarah.com</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
 
 <footer>
          <div class="main-footer">
@@ -29,8 +10,23 @@
                      </div>
                      <div class="col-md-6 col-sm-6">
                         <div class="form-box">
-                           <input type="text" placeholder="Enter yopur e-mail" />
-                           <button>Continue</button>
+                           <input type="text" placeholder="Enter your e-mail" />
+                           <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#subcribe">Subscribe</button>
+                           <div class="modal fade" id="subcribe" tabindex="-1" role="dialog" aria-labelledby="judul" aria-hidden="true">
+                           <div class="modal-dialog modal-dialog-centered" role="document">
+                              <div class="modal-content">
+                                 <div class="modal-header">
+                                 <h5 class="modal-title" id="judul">Berhasil</h5>
+                                 </div>
+                                 <div class="modal-body">
+                                 Berhasil Subscribe ke BagiDarah.com
+                                 </div>
+                                 <div class="modal-footer">
+                                 <button type="button" class="Close" data-dismiss="modal" >OK</button>
+                                 </div>
+                              </div>
+                           </div>
+                           </div>
                         </div>
                      </div>
                      <div class="col-md-4 col-sm-12">
