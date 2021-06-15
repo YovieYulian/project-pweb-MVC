@@ -18,9 +18,9 @@
                </div>
                <div class="row clearfix">
                   <div class="col-lg-3 col-sm-6 col-md-3">
-                     <a href="<?= BASEURL ?> /main/najmi/"<?=$data['najmi']['username']?> >
+                     <a href="<?= BASEURL ?> /main/najmi/" >
                         <div class="box-img">
-                           <h4>najmi</h4>
+                           <h4>Najmi</h4>
                            <img src="<?= BASEURL ?>/IMG/person/najmi.jpg" alt="" />
                         </div>
                      </a>

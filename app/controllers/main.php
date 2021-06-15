@@ -19,6 +19,7 @@ class main extends Controller{
 
     public function ariyani() {
         $data['judul'] = 'Ariyani';
+        $data['ariyani'] = $this->model('user_model')->get('2');
         $this->view('header',$data);
         $this->view('main/ariyani',$data);
         $this->view('footer');
@@ -26,6 +27,7 @@ class main extends Controller{
 
     public function agil() {
         $data['judul'] = 'Agil';
+        $data['agil'] = $this->model('user_model')->get('3');
         $this->view('header',$data);
         $this->view('main/agil',$data);
         $this->view('footer');
@@ -33,6 +35,7 @@ class main extends Controller{
 
     public function lord() {
         $data['judul'] = 'Wahid';
+        $data['lord'] = $this->model('user_model')->get('4');
         $this->view('header',$data);
         $this->view('main/lord',$data);
         $this->view('footer');

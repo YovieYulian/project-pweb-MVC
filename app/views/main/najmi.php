@@ -42,11 +42,7 @@
                      <div class="description-box">
                         <div class="dex-a">
                            <h4>Sekilas Tentang Najmi : </h4>
-                           <p>Najmi Fatihus Sidqi merupakan anak pertama dari pasangan Pak Takiya dan Bu Mirna, 
-                           Setelah ulang tahunnya yang ke 19, ia mengalami kecelakaan hebat saat sedang mendaki gunung Kilimanjaro.
-                           Saat ini Najmi telah 1 bulan dirawat di Rumah Sakit Setya Merdeka dan membutuhkan 3 kantong darah setiap hari.
-                           Bantu Najmi sembuh dari penyakit yang dideritanya.
-                           </p>
+                           <p> <?= $data['najmi']['story'] ?> </p>
                            <br>
                         </div>
                         <div class="spe-a">
@@ -108,7 +104,7 @@
                <div class="col-md-3 col-sm-12">
                   <div class="price-box-right float-end">
                      <h4>Contact Person : </h4>
-                     <h3>+62 851-5533-2565</h3>
+                     <h3><?= $data['najmi']['cp'] ?></h3>
                      <h5>Hubungi nomor diatas jika anda berminat untuk mendonorkan darah anda</h5>
                   </div>
                </div>
