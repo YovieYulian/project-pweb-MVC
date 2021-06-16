@@ -17,35 +17,16 @@
                   </div>
                </div>
                <div class="row clearfix">
+                  <?php foreach ($data['orang'] as $orang) : ?>
                   <div class="col-lg-3 col-sm-6 col-md-3">
-                     <a href="<?= BASEURL ?> /main/najmi/" >
+                     <a href="<?= $orang['link'] ?>" >
                         <div class="box-img">
-                           <h4>Najmi</h4>
-                           <img src="<?= BASEURL ?>/IMG/person/najmi.jpg" alt="" />
+                           <h4><?=$orang['shortname'] ?></h4>
+                           <img src="<?=$orang['img'] ?>" alt="" />
                         </div>
                      </a>
                   </div>
-                  <div class="col-lg-3 col-sm-6 col-md-3">
-                     <a href="<?= BASEURL ?> /main/ariyani">
-                        <div class="box-img">
-                           <h4>Ariyani</h4>
-                           <img src="<?= BASEURL ?>/IMG/person/ariyani.jpg" alt="" />
-                        </div>
-                     </a>
-                  </div>
-                  <div class="col-lg-3 col-sm-6 col-md-3">
-                     <a href="<?= BASEURL ?> /main/agil">
-                        <div class="box-img">
-                           <h4>Agil</h4>
-                           <img src="<?= BASEURL ?>/IMG/person/agil.jpg" alt="" />
-                        </div>
-                     </a>
-                  </div>
-                  <div class="col-lg-3 col-sm-6 col-md-3">
-                     <a href="<?= BASEURL ?> /main/lord">
-                        <div class="box-img">
-                           <h4>Wahid</h4>
-                           <img src="<?= BASEURL ?>/IMG/person/lord.jpg" alt="" />
+                  <?php endforeach; ?>
                         </div>
                      </a>
                   </div>

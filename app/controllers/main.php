@@ -2,7 +2,7 @@
 class main extends Controller{
     public function index()
     {
-        $nama = 'najmi';
+        $data['orang'] = $this->model('user_model')->getAllPerson(); 
         $data['judul'] = 'BagiDarah.com - Setetes Darah Anda Sangat Berarti Bagi Mereka.';
         $this->view('header',$data);
         $this->view('main/index',$data);

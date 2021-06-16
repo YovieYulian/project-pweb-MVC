@@ -33,7 +33,7 @@
                         <div class="page-preview">
                            <div class="preview">
                               <div class="preview-pic tab-content">
-                                 <div class="tab-pane active" id="pic-1"><img src="<?= BASEURL ?> /IMG/person/ariyani.jpg" alt="#" /></div>
+                                 <div class="tab-pane active" id="pic-1"><img src="<?=$data['ariyani']['img']?>" alt="#" /></div>
                               </div>
                            </div>
                         </div>

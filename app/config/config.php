@@ -1,5 +1,5 @@
 <?php
-define('BASEURL', 'http://localhost/PHP/UAS/public');
+define('BASEURL', 'http://localhost/uas/public');
 
 //DB
 define('DB_HOST', 'localhost');

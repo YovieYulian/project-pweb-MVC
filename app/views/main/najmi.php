@@ -21,7 +21,7 @@
             <div class="row">
                <div class="col-md-12">
                   <div class="prod-page-title">
-                     <h2>Najmi Fatihus Sidqi</h2>
+                     <h2><?= $data['najmi']['nama'] ?></h2>
                   </div>
                </div>
             </div>
@@ -32,7 +32,7 @@
                         <div class="page-preview">
                            <div class="preview">
                               <div class="preview-pic tab-content">
-                                 <div class="tab-pane active" id="pic-1"><img src="<?= BASEURL ?> /IMG/person/najmi.jpg" alt="#" /></div>
+                                 <div class="tab-pane active" id="pic-1"><img src="<?=$data['najmi']['img'] ?> " alt="#" /></div>
                               </div>
                            </div>
                         </div>

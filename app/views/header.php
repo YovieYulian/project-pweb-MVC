@@ -31,7 +31,7 @@
                <div class="row">
                   <div class="col-md-4 col-sm-12 left-rs">
                      <div class="navbar-header">
-                        <a href="<?= BASEURL ?> /main/index" class="navbar-brand"><h3>BagiDarah.com</h3></a>
+                        <a href="<?= BASEURL ?>/" class="navbar-brand"><h3>BagiDarah.com</h3></a>
                      </div>
                   </div>
                </div>

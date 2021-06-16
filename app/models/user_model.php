@@ -11,4 +11,10 @@ class User_model {
         $this->db->bind('id', $id);
         return $this->db->single();
     }
+    public function getAllPerson()
+    {
+        $this->db->query('SELECT * FROM person ' );
+        return $this->db->resultSet();
+
+    }
 }
