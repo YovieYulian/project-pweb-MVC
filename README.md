@@ -1,7 +1,7 @@
-# project-pweb-MVC
+# project-pweb-MVC \n
 
-BagiDarah.com
-Website informasi bagi pasien yang membutuhkan suplai darah 
+BagiDarah.com \n
+Website informasi bagi pasien yang membutuhkan suplai darah \n
 
-192410101011 - Yovie Yuliantono
+192410101011 - Yovie Yuliantono \n
 192410101038 - Efga Chandra A.
